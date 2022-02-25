@@ -1,0 +1,53 @@
+div#background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center; /* Центровка изображения */
+    background-size: cover; /* Масштабирование картинки */
+    background-repeat: no-repeat; /* Чтобы картинка не повторялась */
+    background-attachment: fixed; /* Красивый скролл */
+    background-image: url("Для страницы благодарности.jpg");
+}
+
+div#white_paper {
+    z-index: 1;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 50%;
+    height: 40%;
+}
+
+div#filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.general_font {
+    font-family: Georgia;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.regular {
+    font-size: 20px;
+}

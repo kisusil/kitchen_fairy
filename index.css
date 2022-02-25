@@ -1,0 +1,471 @@
+body {
+    overflow-x: hidden;
+}
+
+div#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 40vw;
+    max-width: 80vw;
+    height: 10vh;
+    background-color: #de1118;
+    border: 0px solid;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Georgia;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    color: #de1118;
+}
+
+.image {
+    background-position: center; /* Центровка изображения */
+    background-size: cover; /* Масштабирование картинки */
+    background-repeat: no-repeat; /* Чтобы картинка не повторялась */
+    width: 70px;
+    height: 70px;
+}
+
+.image_programme {
+    background-position: center; /* Центровка изображения */
+    background-size: cover; /* Масштабирование картинки */
+    background-repeat: no-repeat; /* Чтобы картинка не повторялась */
+    width: 80px;
+    height: 80px;
+}
+
+.image_feedback {
+    background-position: center; /* Центровка изображения */
+    background-size: cover; /* Масштабирование картинки */
+    background-repeat: no-repeat; /* Чтобы картинка не повторялась */
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    text-align: center;
+}
+
+.big_image {
+    background-position: center; /* Центровка изображения */
+    background-size: cover; /* Масштабирование картинки */
+    background-repeat: no-repeat; /* Чтобы картинка не повторялась */
+    width: 40vw;
+    height: 70vh;
+    margin-right: 35px;
+}
+
+div#image_author {
+    background-image: url(Автор.jpg)
+}
+
+div#programme1 {
+    background-image: url(https://static.tildacdn.info/lib/tildaicon/33633436-3532-4832-b466-383563306236/Tilda_Icons_42_restaurant_vegan.svg)
+}
+
+div#programme2 {
+    background-image: url(https://static.tildacdn.info/lib/tildaicon/37316234-6465-4562-b532-393032663663/Tilda_Icons_42_restaurant_dish.svg)
+}
+
+div#programme3 {
+    background-image: url(https://static.tildacdn.info/lib/tildaicon/37383837-3966-4265-b132-633432346238/Tilda_Icons_42_restaurant_waiter.svg)
+}
+
+div#image1 {
+    background-image: url("Для отзывов 1.jpg")
+}
+
+div#image2 {
+    background-image: url("Для отзывов 2.jpg")
+}
+
+div#image3 {
+    background-image: url("Для отзывов 3.jpg")
+}
+
+div#house_wife {
+    background-image: url(https://static.tildacdn.info/lib/tildaicon/30373434-6335-4361-b639-386333306365/3st_woman.svg);
+}
+
+div#student {
+    background-image: url(https://static.tildacdn.info/lib/tildaicon/61336534-3130-4063-a532-373039303038/1ed_teacher.svg);
+}
+
+div#cook {
+    background-image: url(https://static.tildacdn.info/lib/tildaicon/37636365-6636-4238-b466-346564663133/Tilda_Icons_32_profession_chef.svg);
+}
+
+.page {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+div#begin {
+    background-image: url(Обложка.jpg); /* Цвет фона и путь к файлу */
+}
+
+div#begin_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.grey_filter {
+    background-color: black;
+    opacity: 0.70;
+}
+
+div#about {
+    background-image: url("О курсе.jpg");
+}
+
+div#about_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+div#about_white_div {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+div#for_whom_content {
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+}
+
+div#programme {
+    height: 180vh;
+    background-color: #2e2d2d;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#programme_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+div#feedback_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+div#programme_content {
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    height: 180vh;
+}
+
+div#pluses1 {
+    height: 120vh;
+}
+
+.pluses_content {
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    align-items: center;
+    height: 120vh;
+}
+
+div#pluses2 {
+    height: 120vh;
+}
+
+div#feedback_content {
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    height: 110vh;
+}
+
+div#feedback_filter {
+    height: 110vh;
+}
+
+div#author_content {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #000000;
+}
+
+.content_column {
+    width: 35vw !important;
+    justify-content: space-between;
+}
+
+div#motivation2_content {
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.columns {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column {
+    background-color: white;
+    width: 25vw;
+    border: 0px solid;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.column_programme {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.programme_list {
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.column_feedback {
+    width: 50vw;
+    /*height: 90vh;*/
+    border: 0px solid;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column_larger {
+    background-color: white;
+    width: 100vw;
+    /*height: 90vh;*/
+    border: 0px solid;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.column_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.plus {
+    width: 100vw;
+    max-width: 100vh;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column_align_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#motivation1 {
+    background-image: url("Призыв к действию 1.jpg");
+}
+
+div#motivation1_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+div#feedback {
+    height: 110vh;
+    background-image: url(Отзывы.jpg);
+}
+
+div#motivation2 {
+    background-image: url("Призыв к действию 2.jpg");
+}
+
+.div_with_image {
+    background-position: center; /* Центровка изображения */
+    background-size: cover; /* Масштабирование картинки */
+    background-repeat: no-repeat; /* Чтобы картинка не повторялась */
+    background-attachment: fixed; /* Красивый скролл */
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.main_header {
+    font-family: Georgia;
+    font-size: 48px;
+    text-align: center;
+}
+
+.header {
+    font-family: Georgia;
+    font-size: 44px;
+    text-align: center;
+}
+
+.main_main_header {
+    font-family: Georgia;
+    font-size: 68px;
+    text-align: center;
+}
+
+.regular {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Georgia;
+    font-size: 18px;
+    text-align: center;
+}
+
+.regular_center {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Georgia;
+    font-size: 20px;
+    text-align: center;
+}
+
+.regular2 {
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.main_regular {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Georgia;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mini_regular {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Georgia;
+    font-size: 16px;
+    text-align: center;
+}
+
+div#podval {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.circle {
+    border: 1.5px solid;
+    border-color: #de1118;
+    border-radius: 45px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #de1118;
+    font-size: 20px;
+}
+
+.circle2 {
+    border: 3px solid;
+    border-color: #de1118;
+    background-color: #de1118;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+
+.apply_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form_input {
+    width: 37.5vw;
+    margin-bottom: 20px;
+    height: 10vh;
+    border-radius: 50px;
+    border: 0px solid;
+    padding-left: 30px;
+    font-family: Georgia;
+    font-size: 18px
+    background-color: white;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.vertical_line {
+    width: 2px;
+    height: 50vh;
+    background-color: black;
+}
