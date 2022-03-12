@@ -15,7 +15,6 @@ a {
     margin-top: 50px;
     border-radius: 50px;
     width: 40vw;
-    max-width: 80vw;
     height: 10vh;
     background-color: #de1118;
     border: 0px solid;
@@ -468,4 +467,13 @@ div#podval {
     width: 2px;
     height: 50vh;
     background-color: black;
+}
+
+@media screen and (max-width: 450px) {
+    a {
+    width: 80vw;
+    height: 6vh;
+    font-size: 12px;
+    padding: 10px;
+    }
 }
