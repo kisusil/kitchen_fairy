@@ -519,6 +519,7 @@ div#podval {
     .columns {
         flex-direction: column;
         align-items: center;
+        margin-top: 50px;
     }
 }
 
@@ -530,8 +531,14 @@ div#podval {
 }
 
 @media screen and (max-width: 480px) {
+    .column_header_for_whom_span {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
     div#for_whom {
-        height: 155vh;
+        height: 145vh;
     }
 }
 
