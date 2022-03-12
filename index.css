@@ -469,48 +469,67 @@ div#podval {
     background-color: black;
 }
 
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    div#about_white_div {
+        padding: 10px;
+        padding-top: 30px;
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    span#begin_description {
+        width: 80vw;
+    }
+}
+
 @media screen and (max-width: 480px) {
     a {
-    width: 80vw;
-    height: 5vh;
-    font-size: 10px;
-    padding: 8px;
+        width: 80vw;
+        height: 5vh;
+        font-size: 10px;
+        padding: 8px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .main_main_header {
-    font-size: 40px;
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .regular_center {
-    font-size: 14px;
+        font-size: 14px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .header {
-    font-size: 30px;
+        font-size: 30px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .columns {
-    flex-direction: column;
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 480px) {
     .main_regular {
-    font-size: 16px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .regular {
-    font-size: 12px;
+        font-size: 12px;
     }
 }
 
