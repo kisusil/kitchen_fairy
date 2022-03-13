@@ -670,3 +670,31 @@ div#podval {
     }
 }
 
+@media screen and (max-width: 480px) {
+    span#motivation2_description {
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div#motivation2_content {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form_input {
+        width: 75vw;
+        height: 7vh;
+        font-size: 12px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mini_regular {
+        font-size: 10px;
+    }
+}
