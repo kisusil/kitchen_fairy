@@ -657,3 +657,16 @@ div#podval {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .main_header {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    span#motivation1_description {
+        width: 80vw;
+        margin-bottom: 40px;
+    }
+}
+
