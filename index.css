@@ -243,11 +243,6 @@ div#author_content {
     color: #000000;
 }
 
-.content_column {
-    width: 35vw !important;
-    justify-content: space-between;
-}
-
 div#motivation2_content {
     flex-direction: column;
     justify-content: center;
@@ -292,6 +287,11 @@ div#motivation2_content {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.content_column {
+    width: 35vw;
+    justify-content: space-between;
 }
 
 .column_larger {
@@ -695,6 +695,33 @@ div#podval {
     }
 }
 
+@media screen and (max-width: 950px) {
+    div#author_content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    div#author_text {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .vertical_line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    div#image_author {
+        width: 80vw;
+        margin-right: 0;
+        height: 450px;
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     div#about_white_div {
         padding: 10px;
@@ -909,5 +936,32 @@ div#podval {
 @media screen and (max-width: 480px) {
     .mini_regular {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div#author_content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div#author_text {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .vertical_line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div#image_author {
+        width: 80vw;
+        margin-right: 0;
+        height: 250px;
+        margin-bottom: 30px;
     }
 }
