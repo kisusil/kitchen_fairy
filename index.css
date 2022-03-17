@@ -19,7 +19,7 @@ a {
     background-color: #de1118;
     border: 0px solid;
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 700;
     font-family: Georgia;
     text-transform: uppercase;
@@ -38,34 +38,35 @@ a:hover {
     background-position: center; /* Центровка изображения */
     background-size: cover; /* Масштабирование картинки */
     background-repeat: no-repeat; /* Чтобы картинка не повторялась */
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
 }
 
 .image_programme {
     background-position: center; /* Центровка изображения */
     background-size: cover; /* Масштабирование картинки */
     background-repeat: no-repeat; /* Чтобы картинка не повторялась */
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
 }
 
 .image_feedback {
     background-position: center; /* Центровка изображения */
     background-size: cover; /* Масштабирование картинки */
     background-repeat: no-repeat; /* Чтобы картинка не повторялась */
-    width: 70px;
-    height: 70px;
-    border-radius: 70px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .big_image {
     background-position: center; /* Центровка изображения */
     background-size: cover; /* Масштабирование картинки */
     background-repeat: no-repeat; /* Чтобы картинка не повторялась */
-    width: 40vw;
-    height: 70vh;
+    width: 45vw;
+    height: 75vh;
     margin-right: 35px;
 }
 
@@ -166,22 +167,29 @@ div#about_content {
 
 div#about_white_div {
     background-color: white;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 60%;
+    height: 60%;
 }
 
 div#for_whom_content {
     flex-direction: column;
     justify-content: center;
     color: #000000;
+    height: 85vh;
+}
+
+div#for_whom {
+    height: 85vh;
 }
 
 div#programme {
-    height: 180vh;
+    height: 160vh;
     background-color: #2e2d2d;
     flex-direction: column;
     justify-content: center;
@@ -206,7 +214,7 @@ div#programme_content {
     flex-direction: column;
     justify-content: center;
     color: #000000;
-    height: 180vh;
+    height: 160vh;
 }
 
 div#pluses1 {
@@ -229,11 +237,11 @@ div#feedback_content {
     flex-direction: column;
     justify-content: center;
     color: #ffffff;
-    height: 110vh;
+    height: 100vh;
 }
 
 div#feedback_filter {
-    height: 110vh;
+    height: 100vh;
 }
 
 div#author_content {
@@ -269,11 +277,12 @@ div#motivation2_content {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    height: 110vh;
 }
 
 .programme_list {
-    height: 100vh;
-    margin-top: 0;
+    height: 70vh;
+    margin-top: 10px;
     margin-bottom: 12px;
 }
 
@@ -297,7 +306,6 @@ div#motivation2_content {
 .column_larger {
     background-color: white;
     width: 100vw;
-    /*height: 90vh;*/
     border: 0px solid;
     border-radius: 40px;
     padding: 30px;
@@ -311,8 +319,7 @@ div#motivation2_content {
 }
 
 .plus {
-    width: 100vw;
-    max-width: 100vh;
+    width: 60vw;
     margin-left: 40px;
     display: flex;
     flex-direction: column;
@@ -338,7 +345,7 @@ div#motivation1_content {
 }
 
 div#feedback {
-    height: 110vh;
+    height: 100vh;
     background-image: url(Отзывы.jpg);
 }
 
@@ -358,19 +365,19 @@ div#motivation2 {
 
 .main_header {
     font-family: Georgia;
-    font-size: 48px;
+    font-size: 70px;
     text-align: center;
 }
 
 .header {
     font-family: Georgia;
-    font-size: 44px;
+    font-size: 50px;
     text-align: center;
 }
 
 .main_main_header {
     font-family: Georgia;
-    font-size: 68px;
+    font-size: 90px;
     text-align: center;
 }
 
@@ -378,7 +385,7 @@ div#motivation2 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: Georgia;
-    font-size: 18px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -386,20 +393,20 @@ div#motivation2 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: Georgia;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
 .regular2 {
     font-family: Georgia;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .main_regular {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: Georgia;
-    font-size: 20px;
+    font-size: 36px;
     text-align: center;
 }
 
@@ -407,7 +414,7 @@ div#motivation2 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: Georgia;
-    font-size: 20px;
+    font-size: 36px;
     text-align: center;
 }
 
@@ -415,7 +422,7 @@ div#motivation2 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: Georgia;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -429,25 +436,25 @@ div#podval {
 }
 
 .circle {
-    border: 1.5px solid;
+    border: 2px solid;
     border-color: #de1118;
     border-radius: 45px;
-    width: 45px;
-    height: 45px;
+    width: 80px;
+    height: 80px;
     text-align: center;
-    line-height: 45px;
+    line-height: 75px;
     color: #de1118;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: Georgia;
 }
 
 .circle2 {
     border: 3px solid;
     border-color: #de1118;
     background-color: #de1118;
-    border-radius: 15px;
-    width: 15px;
-    height: 15px;
-    text-align: center;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
 }
 
 .apply_form {
@@ -458,14 +465,14 @@ div#podval {
 }
 
 .form_input {
-    width: 37.5vw;
-    margin-bottom: 20px;
+    width: 38.5vw;
+    margin-bottom: 30px;
     height: 10vh;
     border-radius: 50px;
     border: 0px solid;
     padding-left: 30px;
     font-family: Georgia;
-    font-size: 18px;
+    font-size: 26px;
     background-color: white;
     outline: 0;
     outline-offset: 0;
@@ -473,7 +480,7 @@ div#podval {
 
 .vertical_line {
     width: 2px;
-    height: 50vh;
+    height: 60vh;
     background-color: black;
 }
 
