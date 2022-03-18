@@ -1380,19 +1380,19 @@ div#podval {
 
 @media screen and (max-width: 480px) {
     div#begin {
-        height: 140vw;
+        height: 200vw;
     }
 }
 
 @media screen and (max-width: 480px) {
     div#begin_content {
-        height: 140vw;
+        height: 200vw;
     }
 }
 
 @media screen and (max-width: 480px) {
     div#begin_filter {
-        height: 140vw;
+        height: 200vw;
     }
 }
 
