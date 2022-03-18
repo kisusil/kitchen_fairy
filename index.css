@@ -130,7 +130,7 @@ div#cook {
 }
 
 div#begin {
-    background-image: url(Обложка.png); /* Цвет фона и путь к файлу */
+    background-image: url(Обложка.jpg);
 }
 
 div#begin_content {
@@ -354,16 +354,15 @@ div#motivation2 {
 }
 
 .div_with_image {
-    background-position: center; /* Центровка изображения */
-    background-size: cover; /* Масштабирование картинки */
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-repeat: no-repeat; /* Чтобы картинка не повторялась */
-    background-attachment: fixed; /* Красивый скролл */
-    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*position: relative;*/
+    background-attachment: scroll;
     overflow-x: hidden;
-    height: 100vh;
 }
 
 .main_header {
