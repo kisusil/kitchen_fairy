@@ -130,7 +130,7 @@ div#cook {
 }
 
 div#begin {
-    background-image: url(Обложка.jpg); /* Цвет фона и путь к файлу */
+    background-image: url(Обложка.png); /* Цвет фона и путь к файлу */
 }
 
 div#begin_content {
