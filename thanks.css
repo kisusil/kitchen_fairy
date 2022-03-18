@@ -10,7 +10,7 @@ div#background {
     background-position: center; /* Центровка изображения */
     background-size: cover; /* Масштабирование картинки */
     background-repeat: no-repeat; /* Чтобы картинка не повторялась */
-    background-attachment: fixed; /* Красивый скролл */
+    background-attachment: scroll; /* Красивый скролл */
     background-image: url("Для страницы благодарности.jpg");
 }
 

@@ -360,7 +360,7 @@ div#motivation2 {
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     overflow-x: hidden;
 }
 
