@@ -701,7 +701,7 @@ div#podval {
         padding: 30px;
         padding-top: 30px;
         width: 70vw;
-        height: 50vh;
+        height: 60vh;
     }
 }
 
@@ -758,13 +758,13 @@ div#podval {
 
 @media screen and (max-width: 950px) {
     div#programme {
-        height: 240vh;
+        height: 340vh;
     }
 }
 
 @media screen and (max-width: 950px) {
     div#programme_content {
-        height: 100%;
+        height: 340vh;
         justify-content: center;
     }
 }
@@ -784,37 +784,40 @@ div#podval {
 
 @media screen and (max-width: 950px) {
     .main_regular {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 
 @media screen and (max-width: 950px) {
     .regular2 {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 950px) {
     .column_programme {
-        height: 60vh;
+        height: 90vh;
     }
 }
 
 @media screen and (max-width: 950px) {
     .programme_list {
         height: 50%;
+        width: 70vw;
     }
 }
 
 @media screen and (max-width: 950px) {
     ul#programme_list_2 {
-        height: 80%;
+        height: 50%;
+        width: 70vw;
     }
 }
 
 @media screen and (max-width: 950px) {
     ul#programme_list_3 {
-        height: 60%;
+        height: 50%;
+        width: 70vw;
     }
 }
 
@@ -825,8 +828,15 @@ div#podval {
 }
 
 @media screen and (max-width: 950px) {
+    .programme_header2 {
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 950px) {
     div#pluses1 {
-        height: 100vh;
+        height: 130vh;
         align-items: center;
         justify-content: center;
     }
@@ -834,7 +844,7 @@ div#podval {
 
 @media screen and (max-width: 950px) {
     .pluses_content {
-        height: 100%;
+        height: 130vh;
     }
 }
 
@@ -884,9 +894,27 @@ div#podval {
 }
 
 @media screen and (max-width: 950px) {
+    div#motivation2 {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    div#motivation2_filter {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .motivation2_content {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 950px) {
     .form_input {
-        width: 73vw;
-        height: 7vh;
+        width: 72.5vw;
+        height: 6.5vh;
         font-size: 14px;
         padding-left: 5vw;
         padding-right: 5vw;
@@ -902,6 +930,13 @@ div#podval {
 @media screen and (max-width: 950px) {
     div#author_content {
         flex-direction: column;
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    div#author {
+        height: 150vh;
     }
 }
 
@@ -941,20 +976,28 @@ div#podval {
 }
 
 @media screen and (max-width: 950px) {
+    div#feedback_header {
+        margin-top: 0 !important;
+        height: 10vh;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 950px) {
     div#feedback {
-        height: 180vh;
+        height: 200vh;
     }
 }
 
 @media screen and (max-width: 950px) {
     div#feedback_content {
-        height: 180vh;
+        height: 200vh;
     }
 }
 
 @media screen and (max-width: 950px) {
     div#feedback_filter {
-        height: 180vh;
+        height: 200vh;
     }
 }
 
