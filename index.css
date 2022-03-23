@@ -15,9 +15,11 @@ div#background {
     background-color: grey;
 }
 
-div#header {
-    font-size: 48px;
+.header {
+    font-size: 32px;
     font-family: Georgia;
+    text-align: center;
+    color: white;
 }
 
 div#calculator {
@@ -28,30 +30,52 @@ div#calculator {
 }
 
 input#data {
-    width: 170px;
-    height: 50px;
-    border: 1px solid;
-    border-radius: 5px;
+    width: 165px;
+    height: 30px;
+    border: 2px solid;
+    border-color: #de1118;
+    border-radius: 45px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+input#data:disabled {
+    background-color: white;
+    color: black;
+}
+
 div#buttons {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    height: 280px;
 }
 
 .calculator-button {
-    background-color: blue;
-    border-radius: 5px;
+    background-color: #de1118;
     text-align: center;
-    font-size: 48px;
+    font-size: 20px;
     color: white;
-    font-family: Georgia;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border: 1.5px solid white;
+    border-radius: 45px;
+}
+
+.calculator-button:hover {
+    background-color: white;
+    color: #de1118;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 210px;
+    justify-content: space-between;
 }

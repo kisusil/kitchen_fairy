@@ -11,18 +11,92 @@
 </head>
 <body>
     <div id="background">
-        <div id="header">
-            Калькулятор Kitchen Fairy
+        <div style="display:flex;flex-direction:column;">
+            <span class="header">Калькулятор</span>
+            <span class="header">"Kitchen Fairy"</span>
+        </div>
+        <div>
+            <span id="error" style="width: 210px; color: white; font-size: 20px; font-family: Georgia;"></span>
         </div>
         <div id="calculator">
-            <input type="text" id="data" value="0"/>
+            <input type="number" id="data" placeholder="0" disabled/>
+            <input type="hidden" id="store" />
+            <input type="hidden" id="operation" />
             <div id="buttons">
-                <button id="plus" class="calculator-button" onclick="plusAction()">
-                    +
-                </button>
-                <button id="run" class="calculator-button" onclick="performEvaluation()">
-                    =
-                </button>
+
+                <div id="row1" class="rows">
+                    <button id="delete" style="width: 155px;" class="calculator-button" onclick="deleteAction()">
+                        с
+                    </button>
+
+                    <button id="divide" class="calculator-button" onclick="divideAction()">
+                        /
+                    </button>
+                </div>
+
+                <div id="row2" class="rows">
+                    <button id="number7" class="calculator-button" onclick="numberAction(7)">
+                        7
+                    </button>
+
+                    <button id="number8" class="calculator-button" onclick="numberAction(8)">
+                        8
+                    </button>
+
+                    <button id="number9" class="calculator-button" onclick="numberAction(9)">
+                        9
+                    </button>
+
+                    <button id="multiply" style="line-height: 50px;" class="calculator-button" onclick="multiplyAction()">
+                        *
+                    </button>
+                </div>
+
+                <div id="row3" class="rows">
+                    <button id="number4" class="calculator-button" onclick="numberAction(4)">
+                        4
+                    </button>
+
+                    <button id="number5" class="calculator-button" onclick="numberAction(5)">
+                        5
+                    </button>
+
+                    <button id="number6" class="calculator-button" onclick="numberAction(6)">
+                        6
+                    </button>
+
+                    <button id="minus" class="calculator-button" onclick="minusAction()">
+                        -
+                    </button>
+                </div>
+
+                <div id="row4" class="rows">
+                    <button id="number1" class="calculator-button" onclick="numberAction(1)">
+                        1
+                    </button>
+
+                    <button id="number2" class="calculator-button" onclick="numberAction(2)">
+                        2
+                    </button>
+
+                    <button id="number3" class="calculator-button" onclick="numberAction(3)">
+                        3
+                    </button>
+
+                    <button id="plus" class="calculator-button" onclick="plusAction()">
+                        +
+                    </button>
+                </div>
+
+                <div id="row5" class="rows">
+                    <button id="number0" class="calculator-button" onclick="numberAction(0)">
+                        0
+                    </button>
+
+                    <button id="run" style="width: 155px;" class="calculator-button" onclick="performEvaluation()">
+                        =
+                    </button>
+                </div>
             </div>
         </div>
     </div>
