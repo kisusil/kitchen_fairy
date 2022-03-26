@@ -13,6 +13,21 @@ div#background {
     width: 100vw;
     height: 100vh;
     background-color: grey;
+    background-image: url("О курсе.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+.filter_background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
 }
 
 .header {
@@ -70,6 +85,7 @@ div#buttons {
 .calculator-button:hover {
     background-color: white;
     color: #de1118;
+    border-color: #de1118;
 }
 
 .rows {
